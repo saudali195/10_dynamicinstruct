@@ -1,0 +1,17 @@
+[project]
+name = "10-dynamicinstruct"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai-agents>=0.2.10",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "exercise1",
+    "exercise2",
+    "exercise3",
+]
